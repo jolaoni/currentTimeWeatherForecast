@@ -1,4 +1,10 @@
 import {combineReducers} from 'redux'
-import {ForecastReducer} from './forecastReducer';
+import ForecastReducer from './forecastReducer';
 
-export default combineReducers({forecast: ForecastReducer});
+const rootReducer = combineReducers({
+    forecast: ForecastReducer
+});
+
+export type AppState = ReturnType<typeof rootReducer>
+
+export default rootReducer
