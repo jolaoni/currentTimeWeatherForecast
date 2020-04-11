@@ -17,11 +17,11 @@ interface forecastProps {
 const location: Location[] = [
     {
         locationName: "Australia/Brisbane",
-        postalCode: "4000"
+        postalCode: "20003"
     },
     {
-        locationName: "Asia/Shanghai",
-        postalCode: "200000"
+        locationName: "America/New_York",
+        postalCode: "10001"
     }
 ];
 
